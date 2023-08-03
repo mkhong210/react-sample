@@ -1,6 +1,8 @@
 import React from 'react'
 import './Product.scss'
 import { useLocation } from 'react-router-dom'
+import img1 from '../img/img_01.jpg'
+import img2 from '../img/img_02.jpg'
 
 function Product() {
 	let hehe = useLocation();
@@ -10,12 +12,12 @@ function Product() {
 			<h2>React State & Props</h2>
 			<ul>
 				<li>
-					<img src="./img/img_01.jpg" alt='' />
+					<img src={img1} alt='' />
 					<p>ADIDAS STAN SMITH</p>
 					<p>$160</p>
 				</li>
 				<li>
-					<img src="./img/img_02.jpg" alt='' />
+					<img src={img2} alt='' />
 					<p>ADIDAS STAN SMITH</p>
 					<p>$160</p>
 				</li>
