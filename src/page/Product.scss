@@ -1,0 +1,24 @@
+.product {
+	background-color: rgb(246, 255, 163);
+	height: 100%;
+	ul {
+		width: 60%;
+		margin: 0 auto;
+		padding-bottom: 50px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		li{
+			width: 45%;
+			list-style: none;
+			text-align: center;
+			img {
+				width: 70%;
+				border-radius: 50%;
+			}
+			:nth-of-type(1) {
+				font-weight: bold;
+			}
+		}
+	}
+}
